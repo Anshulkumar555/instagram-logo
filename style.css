@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.style {
+  width: 100%;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.insta {
+  width: 300px;
+  height: 300px;
+  background: radial-gradient(
+    circle at 33% 100%,
+    #fed375 8%,
+    #f15245 40%,
+    #d92e7f 62%,
+    #9b36b7 85%,
+    #515ecf
+  );
+  border-radius: 54px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.insta-2 {
+  width: 240px;
+  height: 240px;
+  border: 17px solid white;
+  border-radius: 54px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.insta-3 {
+  width: 120px;
+  height: 120px;
+  border: 17px solid white;
+  border-radius: 50%;
+}
+.insta-2::after {
+  content: "";
+  background: white;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
